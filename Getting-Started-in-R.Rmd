@@ -71,6 +71,7 @@ footer_contents: "Getting Started in R"
 output: 
   pinp::pinp:
     fig_caption: yes
+    collapse: true
 
 # Required: Vignette metadata for inclusion in a package.
 # vignette: >
@@ -81,12 +82,14 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = TRUE) #, knitr.table.format = 'latex')
+knitr::opts_chunk$set(echo = TRUE, 
+                      eval = TRUE,
+                      cache = TRUE,
+                      fig.pos = 'H') #, knitr.table.format = 'latex')
 library(tidyverse)
 library(knitr)
 library(kableExtra)
 options(width=45)
-knitr::opts_chunk$set(fig.pos = 'H')
 
 # Making some aesthetic changes for this document
 theme_set(theme_gray(base_size = 9))
