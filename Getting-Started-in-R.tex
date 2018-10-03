@@ -211,10 +211,9 @@ Help}\label{searching-on-line-for-r-help}
 There are a lot of on-line resources that can help. However you must
 understand that blindly copying and pasting could be harmful and further
 it won't help you to learn and develop. When you search on-line use
-\texttt{{[}R{]}} in your search term (e.g.
-``\texttt{{[}R{]}\ summary\ \ statistics\ by\ group}''). Note that often
-there is more than one solution to your problem. It is good to
-investigate the different options.
+\texttt{{[}R{]}} in your search term (e.g. ``{[}R{]} summary statistics
+by group''). Note that often there is more than one solution to your
+problem. It is good to investigate the different options.
 
 \subsection{Exercise}\label{exercise}
 
@@ -224,20 +223,41 @@ Try the following:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \texttt{help(median)},
+  \texttt{help(median)}
 \item
   \texttt{?sd}
 \item
   \texttt{?max}
 \end{enumerate}
 
+\subsection{Warning}\label{warning}
+
+If an R command is not complete then R will show a plus sign
+(\texttt{+}) prompt on second and subsequent lines until the command
+syntax is correct.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\OperatorTok{+}
+\end{Highlighting}
+\end{Shaded}
+
+To break out this, press the escape key (\texttt{ESC}).
+
+\subsection{Hint}\label{hint}
+
+To recall a previously typed commands use the up arrow key
+(\(\uparrow\)). To go between previously typed commands use the up and
+down arrow (\(\downarrow\)) keys. To modify or correct a command use the
+left (\(\leftarrow\)) and right arrow (\(\rightarrow\)) keys.
+
 \section{Some R Concepts}\label{some-r-concepts}
 
 In R speak, scalars, vectors/variables and datasets are called
 \textbf{\emph{objects}}. To create objects (things) we have to use the
-assignment operator ``\texttt{\textless{}-}''. For example, below,
-object \texttt{height} is assigned a value of 173 (typing
-\texttt{height} shows its value):
+assignment operator \texttt{\textless{}-}. For example, below, object
+\texttt{height} is assigned a value of 173 (typing \texttt{height} shows
+its value):
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -291,7 +311,7 @@ sensitive}\label{warning-r-is-case-sensitive}
 \subsection{New lines}\label{new-lines}
 
 R commands are usually separated by a new line but they can also be
-separated by a semicolon ``\texttt{;}''.
+separated by a semicolon \texttt{;}.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -333,29 +353,6 @@ to the end of the line will be ignored by R.
 #  [1] "Lisbon"
 \end{verbatim}
 \end{ShadedResult}
-
-\subsection{Warning}\label{warning}
-
-If an R command is not complete then R will show a plus sign
-(``\texttt{+}'') prompt on second and subsequent lines until the command
-syntax is correct.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\OperatorTok{+}
-\end{Highlighting}
-\end{Shaded}
-
-To break out this, press the escape key (\texttt{ESC}).
-
-\subsection{Recalling previous
-commands}\label{recalling-previous-commands}
-
-To recall a previously typed commands use the up arrow key
-(\(\uparrow\)). To go between previously typed commands use the up and
-down arrow (\(\downarrow\)) keys. Once a command is recalled, it can be
-modified/corrected using the left (\(\leftarrow\)) and right arrow
-(\(\rightarrow\)) keys.
 
 \section{R as a Calculator}\label{r-as-a-calculator}
 
@@ -464,19 +461,19 @@ What do the following pairs of examples do?
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  ``\texttt{ceiling(18.33)}'' and ``\texttt{signif(9488,\ 2)}''
+  \texttt{ceiling(18.33)} and \texttt{signif(9488,\ 2)}
 \item
-  ``\texttt{exp(1)}'' and ``\texttt{log10(1000)}''
+  \texttt{exp(1)} and \texttt{log10(1000)}
 \item
-  ``\texttt{sign(-2.9)}'' and ``\texttt{sign(32)}''
+  \texttt{sign(-2.9)} and \texttt{sign(32)}
 \item
-  ``\texttt{abs(-27.9)}'' and ``\texttt{abs(11.9)}''
+  \texttt{abs(-27.9)} and \texttt{abs(11.9)}
 \end{enumerate}
 
 \section{Some More R Concepts}\label{some-more-r-concepts}
 
 You can do some clever and useful things with using the assignment
-operator ``\texttt{\textless{}-}'':
+operator \texttt{\textless{}-}:
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -744,8 +741,8 @@ sequence as follows:
 You can create your own functions (using the \texttt{function()}
 function) which is a very powerful way to extend R. Writing your own
 functions is outside the scope of this guide. As you get more and more
-familiar with R it is very likely that you will need to learn do so but
-for now you don't need to.
+familiar with R it is very likely that you will eventually need to learn
+about them but for now you don't need to.
 
 \subsection{R Packages}\label{r-packages}
 
@@ -756,10 +753,10 @@ can contain functions, data and documentation.
 \subsection{\texorpdfstring{\texttt{tidyverse}}{tidyverse}}\label{tidyverse}
 
 The \texttt{tidyverse} package\footnote{Tidyverse:
-  \url{https://www.tidyverse.org/}} is a collection of packages the lets
-you import, manipulate, explore, visualise and model data in a
-harmonised and consistent way which helps you to be more productive. We
-will use the \texttt{tidyverse} to visualise and summarise data.
+  \url{https://www.tidyverse.org/}} is a collection of packages to
+import, manipulate, explore, visualise and model data in a harmonised
+and consistent way which helps you to be more productive. We will use
+the \texttt{tidyverse} to visualise and summarise data.
 
 \subsection{\texorpdfstring{MUST DO: Ensure that the \texttt{tidyverse}
 package is

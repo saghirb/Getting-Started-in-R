@@ -172,28 +172,42 @@ example(mean)
 Rstudio provides search box in the "Help" tab to make your life easier (see Figure 
 \ref{fig:rstudio}). 
 
-
-
 ## Searching On-line For R Help
 
 There are a lot of on-line resources that can help. However you must understand that 
 blindly copying and pasting could be harmful and further it won't help you to learn and
-develop. When you search on-line use `[R]` in your search term (e.g. "`[R] summary 
-statistics by group`"). Note that often there is more than one solution to your problem. 
+develop. When you search on-line use `[R]` in your search term (e.g. "[R] summary 
+statistics by group"). Note that often there is more than one solution to your problem. 
 It is good to investigate the different options.
 
 ## Exercise
 
 Try the following: 
 
-1. `help(median)`, 
+1. `help(median)` 
 2. `?sd`
 3. `?max`
+
+## Warning
+
+If an R command is not complete then R will show a plus sign (`+`) prompt
+on second and subsequent lines until the command syntax is correct.
+```{r continuation, echo=TRUE, eval=FALSE}
++
+```
+To break out this, press the escape key (`ESC`).
+
+## Hint
+
+To recall a previously typed commands use the up arrow key ($\uparrow$).
+To go between previously typed commands use the up and down arrow
+($\downarrow$) keys. To modify or correct a command use the left 
+($\leftarrow$) and right arrow ($\rightarrow$) keys.
 
 # Some R Concepts
 
 In R speak, scalars, vectors/variables and datasets are called ***objects***. To create
-objects (things) we have to use the assignment operator "`<-`". For example, below, object 
+objects (things) we have to use the assignment operator `<-`. For example, below, object 
 `height` is assigned a value of 173 (typing `height` shows its value):
 ```{r createObjs}
 height <- 173
@@ -216,7 +230,7 @@ AgE
 ## New lines
 
 R commands are usually separated by a new line but they can also be separated by a 
-semicolon "`;`". 
+semicolon (`;`). 
 ```{r semicolon}
 Name <- "Leo"; Age <- 25; City <- "Lisbon"
 Name; Age; City
@@ -231,22 +245,6 @@ sign (`#`). Everything after the hash to the end of the line will be ignored by 
 # This comment line will be ignored when run.
 City     # Text after "#" is ignored.
 ```
-
-## Warning
-
-If an R command is not complete then R will show a plus sign ("`+`") prompt
-on second and subsequent lines until the command syntax is correct.
-```{r continuation, echo=TRUE, eval=FALSE}
-+
-```
-To break out this, press the escape key (`ESC`).
-
-## Recalling previous commands
-
-To recall a previously typed commands use the up arrow key ($\uparrow$).
-To go between previously typed commands use the up and down arrow
-($\downarrow$) keys. Once a command is recalled, it can be modified/corrected
-using the left ($\leftarrow$) and right arrow ($\rightarrow$) keys.
 
 # R as a Calculator
 
@@ -281,14 +279,14 @@ round(8.6178, 2)
 
 What do the following pairs of examples do?
 
-1. "`ceiling(18.33)`" and "`signif(9488, 2)`"
-2. "`exp(1)`" and "`log10(1000)`"
-3. "`sign(-2.9)`" and "`sign(32)`" 
-4. "`abs(-27.9)`" and "`abs(11.9)`"
+1. `ceiling(18.33)` and `signif(9488, 2)`
+2. `exp(1)` and `log10(1000)`
+3. `sign(-2.9)` and `sign(32)` 
+4. `abs(-27.9)` and `abs(11.9)`
 
 # Some More R Concepts
 
-You can do some clever and useful things with using the assignment operator  "`<-`": 
+You can do some clever and useful things with using the assignment operator  `<-`: 
 ```{r assignBasic}
 roomLength <- 7.8
 roomWidth <- 6.4
@@ -389,7 +387,7 @@ seq(from = 5, to = 8, length.out = 16)
 You can create your own functions (using the `function()` function) which is a 
 very powerful way to extend R. Writing your own functions is outside the scope 
 of this guide. As you get more and more familiar with R it is very likely that you 
-will need to learn do so but for now you don't need to.
+will eventually need to learn about them but for now you don't need to.
 
 ## R Packages
 
@@ -399,7 +397,7 @@ and documentation.
 
 ## `tidyverse`
 
-The `tidyverse` package[^tidyverse] is a collection of packages the lets you import, 
+The `tidyverse` package[^tidyverse] is a collection of packages to import, 
 manipulate, explore, visualise and model data in a harmonised and consistent way which 
 helps you to be more productive. We will use the `tidyverse` to visualise and summarise 
 data. 

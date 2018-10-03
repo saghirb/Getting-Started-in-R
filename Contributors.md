@@ -11,6 +11,7 @@ Contributors
 - Inês Leitão 
 - [Isabel Lafaia](https://github.com/IsabelLafaia)
 - [Hugo Ferreira](https://twitter.com/hu_daa)
+- Jordi Tarrés-Call
 
 ## List of Contributors
 - ...
