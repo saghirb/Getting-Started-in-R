@@ -649,7 +649,7 @@ ggplot(CW, aes(Time, weight, group=Diet,
 
 ```{r resettblprint, echo = FALSE}
 # Temporarily resetting the print limit
-options(tibble.print_min=3, tibble.print_max=3)
+options(tibble.print_min=5, tibble.print_max=5)
 ```
 
 In this section we will learn how to wrangle (manipulate) datasets using the `tidyverse`
@@ -664,6 +664,7 @@ factor variables.
 # Added a column
 CWm1 <- mutate(CW, weightKg = weight/1000)
 CWm1
+
 # Modify an existing column
 CWm2 <- mutate(CW, Diet = str_c("Diet ", Diet))
 CWm2
@@ -675,6 +676,7 @@ Keeps, drops or reorders variables.
 ```{r selectDemo}
 # Drop the weight variable from CWm1 using minus
 select(CWm1, -weight)
+
 # Keep variables Time, Diet and weightKg
 select(CWm1, Chick, Time, Diet, weightKg)
 ```
@@ -702,6 +704,7 @@ For comparing values in vectors use: `<` (less than), `>` (greater than), `<=`
 Changes the order of the observations (rows).
 ```{r arrangeDemo}
 arrange(CW, Chick, Time)
+
 arrange(CW, desc(weight))
 ```
 
@@ -721,6 +724,7 @@ CW21 <- CW %>%
   mutate(Group = factor(str_c("Diet ", Diet))) %>% 
   select(Chick, Group, Time, Weight) %>% 
   arrange(Chick, Time) 
+
 CW21
 ```
 
@@ -764,6 +768,7 @@ mnsdCW <- CW %>%
   group_by(Diet, Time) %>% 
   summarise(N = n(), Mean = mean(weight)) %>% 
   arrange(Diet, Time)
+
 mnsdCW
 ```
 
@@ -787,6 +792,7 @@ sumCW <-  CW %>%
             Min = min(weight),
             Max = max(weight)) %>% 
   arrange(Diet, Time)
+
 sumCW
 ```
 
@@ -798,6 +804,7 @@ prettySumCW <- sumCW %>%
  mutate(Range = str_c(Min, " - ", Max)) %>% 
  select(Diet, Time, N, Mean_SD, Median, Range) %>%
  arrange(Diet, Time)
+
 prettySumCW
 ```
 ## Final Table
