@@ -71,13 +71,8 @@ footer_contents: "Getting Started in R"
 output: 
   pinp::pinp:
     fig_caption: yes
-
-# Required: Vignette metadata for inclusion in a package.
-# vignette: >
-#  %\VignetteIndexEntry{YourPackage-vignetteentry}
-#  %\VignetteKeywords{YourPackage, r, anotherkeyword}
-#  %\VignettePackage{YourPackage}
-#  %\VignetteEngine{knitr::rmarkdown}
+    collapse: true
+    keep_tex: false
 ---
 
 ```{r setup, include=FALSE}
