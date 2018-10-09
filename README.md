@@ -25,7 +25,7 @@ examples and a real life dataset.
 
 * After reading the guide, following the examples and doing exercises you will 
 learn how to manipulate, visualise and summarise data.
-* Hopefully you will have the curiousity to learn more :)
+* Hopefully you will have the curiosity to learn more :)
 
 **Try it now!**
 
