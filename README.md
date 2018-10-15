@@ -1,6 +1,6 @@
 # Getting Started in R
 
-**An 8 page PDF "Getting Started in R" Guide.**
+**An 8 page PDF ["Getting Started in R" Guide](http://ilustat.com/shared/Getting-Started-in-R.pdf).**
 
 **Objective** 
 
