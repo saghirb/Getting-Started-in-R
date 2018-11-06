@@ -714,9 +714,9 @@ What does the `desc()` do? Try using `desc(Time)`.
 
 # Tidyverse: Pipe operator ` %>%`
 
-In reality you will end up doing multiple data wrangling steps that you want to save.
-Neither are optimal as they have their own issues. This is where the pipe operator, 
-`%>%` comes to the rescue:
+In reality you will end up doing multiple data wrangling steps that you will want 
+to save. This is where the pipe operator, `%>%`, plays a very useful role. Let's
+have a look at an example:
 ```{r pipeOpDemo}
 CW21 <- CW %>% 
   filter(Time %in% c(0, 21)) %>% 
