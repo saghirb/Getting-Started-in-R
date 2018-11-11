@@ -346,7 +346,7 @@ Use function `ls()` to list the objects in your workspace. The `rm()` function r
 (deletes) them.
 ```{r lsrm}
 ls()
-rm(x, x1, x2, x3, xm, r1, s1, AGE, age)
+rm(x, x1, x2, x3, xm, r1, s1, AgE, age)
 ls()
 ```
 
