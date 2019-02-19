@@ -1,6 +1,6 @@
 # Getting Started in R
 
-**An 8 page PDF ["Getting Started in R" Guide](http://ilustat.com/shared/Getting-Started-in-R.pdf).**
+**An 8 page PDF ["Getting Started in R" Guide](https://github.com/saghirb/Getting-Started-in-R/raw/master/Getting-Started-in-R.pdf).**
 
 **Objective** 
 
@@ -29,7 +29,7 @@ learn how to manipulate, visualise and summarise data.
 
 **Try it now!**
 
-1. Downloaded (http://ilustat.com/shared/Getting-Started-in-R.zip).
+1. Downloaded [Getting-Started-in-R.zip](https://github.com/saghirb/Getting-Started-in-R/raw/master/public/Getting-Started-in-R.zip).
 2. Unzip this file.
 3. Open the "Getting-Started-in-R.pdf" to get started.
 4. Enjoy :)

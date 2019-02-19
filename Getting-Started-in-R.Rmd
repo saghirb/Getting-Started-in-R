@@ -1,5 +1,5 @@
 ---
-title: "Getting Started in R"
+title: "Getting Started in R - Tidyverse Edition"
 
 # Use letters for affiliations
 author:
@@ -11,10 +11,10 @@ author:
 
 # For footer text  TODO(fold into template, allow free form two-authors)
 # I will use it to place the copyright notice (Creative Comments Share Alike)
-lead_author_surname: "[CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/) [ilustat](http://ilustat.com/) $\\bullet$ [info@ilustat.com](mailto:info@ilustat.com)"
+lead_author_surname: "[CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/) [ilustat](https://ilustat.com/) $\\bullet$ [info@ilustat.com](mailto:info@ilustat.com)"
 
 # Place DOI URL or CRAN Package URL here
-doi: "Learn more at http://ilustat.com/resources/"
+doi: "Learn more at https://ilustat.com/resources/"
 
 # Abstract
 abstract: |
@@ -110,7 +110,7 @@ without any other data loaded (otherwise you could lose it).
 Make sure that:
 
 1. R and RStudio are installed.
-2. [http://ilustat.com/shared/Getting-Started-in-R.zip](http://ilustat.com/shared/Getting-Started-in-R.zip) has 
+2. [https://ilustat.com/shared/Getting-Started-in-R.zip](https://ilustat.com/shared/Getting-Started-in-R.zip) has 
 been downloaded and unzipped
 3. Double click `"Getting-Started-in-R.Rproj"` to open RStudio with the setup for this guide. 
 
