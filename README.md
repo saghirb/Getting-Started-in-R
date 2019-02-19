@@ -29,7 +29,7 @@ learn how to manipulate, visualise and summarise data.
 
 **Try it now!**
 
-1. Downloaded [Getting-Started-in-R.zip](https://github.com/saghirb/Getting-Started-in-R/raw/master/public/Getting-Started-in-R.zip).
+1. Downloaded [Getting-Started-in-R.zip](https://github.com/saghirb/Getting-Started-in-R/raw/master/Share/Getting-Started-in-R.zip).
 2. Unzip this file.
 3. Open the "Getting-Started-in-R.pdf" to get started.
 4. Enjoy :)
