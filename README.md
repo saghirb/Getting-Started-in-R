@@ -2,7 +2,7 @@
 
 **An 8 page PDF ["Getting Started in R" Guide](https://github.com/saghirb/Getting-Started-in-R/raw/master/Getting-Started-in-R.pdf).**
 
-[![GSiR Guide Screenshot](images/GSiR-tv-guide.png)]
+![](images/GSiR-tv-guide.png)
 
 **Objective** 
 
