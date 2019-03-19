@@ -2,6 +2,8 @@
 
 **An 8 page PDF ["Getting Started in R" Guide](https://github.com/saghirb/Getting-Started-in-R/raw/master/Getting-Started-in-R.pdf).**
 
+[![GSiR Guide Screenshot](images/GSiR-tv-guide.png)]
+
 **Objective** 
 
 To create a short guide that gives a quick overview and introduction to R and 
