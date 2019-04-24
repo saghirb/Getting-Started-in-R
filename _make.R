@@ -9,7 +9,8 @@ rmarkdown::render("Getting-Started-in-R.Rmd")
 
 # Create zip files to share with participants
 # First empty the share folder and recreate the directory structure.
-unlink(here("Share/*"), recursive = TRUE)
+unlink(here("Share/"), recursive = TRUE)
+dir.create(here("Share"))
 dir.create(here("Share", "Getting-Started-in-R"))
 
 # Populate the Share directories
