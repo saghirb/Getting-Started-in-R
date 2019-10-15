@@ -89,6 +89,11 @@ update_geom_defaults("point", list(size = 0.5))
 update_geom_defaults("boxplot", list(outlier.size = 0.5))
 ```
 
+\begin{tikzpicture}[remember picture, overlay]
+    \node [shift={(-2cm,-2cm)}]  at (current page.north east)
+        {\includegraphics[width=2.5cm]{images/tidyverse.png}};
+\end{tikzpicture}
+
 # Preface
 
 This "Getting Started" guide will give you a flavour of what R[^baseR] and the 
